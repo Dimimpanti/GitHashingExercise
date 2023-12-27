@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Get user input for the 4-digit integer
-read -p "Enter a 4-digit integer: " user_input
+read -p "Please Enter a 4-digit integer: " user_input
 
 # Check if the input is a 4-digit integer
 if [[ $user_input =~ ^[0-9]{4}$ ]]; then
